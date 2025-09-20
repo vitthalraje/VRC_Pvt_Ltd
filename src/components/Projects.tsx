@@ -4,36 +4,36 @@ import { ExternalLink, MapPin, Clock } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Green Valley Residential Complex",
-      location: "Mumbai, Maharashtra",
-      category: "Residential Development",
-      image: "https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "Completed",
-      description: "Sustainable residential complex with 200+ eco-friendly homes featuring solar energy and rainwater harvesting."
-    },
-    {
-      title: "Smart City Infrastructure",
+      title: "Eco-Smart Residential Township",
       location: "Pune, Maharashtra",
-      category: "Town Planning",
-      image: "https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "In Progress",
-      description: "AI-driven smart city infrastructure project incorporating IoT systems and sustainable energy solutions."
-    },
-    {
-      title: "Heritage Building Restoration",
-      location: "Delhi, NCR",
-      category: "Renovation",
-      image: "https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=600",
+      category: "Residential Development",
+      image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600",
       status: "Completed",
-      description: "Complete restoration of colonial-era building while preserving historical architecture and adding modern amenities."
+      description: "Award-winning sustainable township with 500+ AI-optimized homes featuring smart energy management, rainwater harvesting, and green building certification."
     },
     {
-      title: "Tech Park Development",
+      title: "Digital Infrastructure Hub",
       location: "Bangalore, Karnataka",
-      category: "Commercial Development",
+      category: "Town Planning",
+      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600",
+      status: "In Progress",
+      description: "Next-generation smart city development with AI-powered traffic management, IoT-enabled utilities, and carbon-neutral infrastructure spanning 2000 acres."
+    },
+    {
+      title: "Corporate Campus Redevelopment",
+      location: "Mumbai, Maharashtra",
+      category: "Renovation",
+      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600",
+      status: "Completed",
+      description: "Complete transformation of legacy corporate campus into modern sustainable workspace with LEED Platinum certification and AI-driven facility management."
+    },
+    {
+      title: "AI-Powered Mixed-Use Development",
+      location: "Hyderabad, Telangana",
+      category: "AI-Driven Solutions",
       image: "https://images.pexels.com/photos/3862149/pexels-photo-3862149.jpeg?auto=compress&cs=tinysrgb&w=600",
       status: "Planning",
-      description: "Modern tech park with LEED certification, featuring AI-optimized building management systems."
+      description: "Revolutionary mixed-use development featuring AI-optimized space utilization, predictive maintenance systems, and automated construction monitoring."
     }
   ];
 
