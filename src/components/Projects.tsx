@@ -3,38 +3,6 @@ import { ExternalLink, MapPin, Clock } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Eco-Smart Residential Township",
-      category: "Sustainable Development",
-      location: "Gurgaon, Haryana",
-      status: "Completed",
-      image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "A 500+ home sustainable township featuring AI-optimized energy management, smart water systems, and green building technologies with 40% reduced carbon footprint."
-    },
-    {
-      title: "Digital Infrastructure Hub",
-      category: "Smart City Development",
-      location: "Bangalore, Karnataka",
-      status: "In Progress",
-      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "2000-acre smart city development with AI-driven traffic management, IoT infrastructure, and sustainable urban planning for 100,000+ residents."
-    },
-    {
-      title: "Corporate Campus Redevelopment",
-      category: "Commercial Renovation",
-      location: "Pune, Maharashtra",
-      status: "Completed",
-      image: "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Complete transformation of a 50-acre corporate campus with LEED Platinum certification, AI-powered facility management, and 60% energy efficiency improvement."
-    },
-    {
-      title: "AI-Powered Mixed-Use Development",
-      category: "Technology Integration",
-      location: "Hyderabad, Telangana",
-      status: "Planning",
-      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Revolutionary mixed-use complex with AI-driven predictive maintenance, automated building systems, and integrated smart retail and residential spaces."
-    }
   ];
 
   return (
