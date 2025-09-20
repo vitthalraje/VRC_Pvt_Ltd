@@ -3,39 +3,6 @@ import { ExternalLink, MapPin, Clock } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Eco-Smart Residential Township",
-      location: "Pune, Maharashtra",
-      category: "Residential Development",
-      image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "Completed",
-      description: "Award-winning sustainable township with 500+ AI-optimized homes featuring smart energy management, rainwater harvesting, and green building certification."
-    },
-    {
-      title: "Digital Infrastructure Hub",
-      location: "Bangalore, Karnataka",
-      category: "Town Planning",
-      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "In Progress",
-      description: "Next-generation smart city development with AI-powered traffic management, IoT-enabled utilities, and carbon-neutral infrastructure spanning 2000 acres."
-    },
-    {
-      title: "Corporate Campus Redevelopment",
-      location: "Mumbai, Maharashtra",
-      category: "Renovation",
-      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "Completed",
-      description: "Complete transformation of legacy corporate campus into modern sustainable workspace with LEED Platinum certification and AI-driven facility management."
-    },
-    {
-      title: "AI-Powered Mixed-Use Development",
-      location: "Hyderabad, Telangana",
-      category: "AI-Driven Solutions",
-      image: "https://images.pexels.com/photos/3862149/pexels-photo-3862149.jpeg?auto=compress&cs=tinysrgb&w=600",
-      status: "Planning",
-      description: "Revolutionary mixed-use development featuring AI-optimized space utilization, predictive maintenance systems, and automated construction monitoring."
-    }
-  ];
 
   return (
     <section id="projects" className="py-20 bg-gray-50">
