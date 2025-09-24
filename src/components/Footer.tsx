@@ -1,5 +1,6 @@
 import React from 'react';
-import { Building2, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import Logo from './Logo';
 
 const Footer = () => {
   return (
@@ -7,12 +8,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <Building2 className="h-8 w-8 text-emerald-400" />
-              <div>
-                <h3 className="text-xl font-bold">VRC InfraMax</h3>
-                <p className="text-sm text-gray-400">Private Limited</p>
-              </div>
+            <div className="mb-4">
+              <Logo size="md" variant="light" />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Leading the future of sustainable infrastructure development through innovative AI-driven solutions and comprehensive real estate services.

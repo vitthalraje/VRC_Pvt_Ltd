@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Cpu, Leaf } from 'lucide-react';
+import Logo from './Logo';
 
 const Hero = () => {
   return (
@@ -7,6 +8,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
+            <div className="mb-8">
+              <Logo size="lg" variant="light" />
+            </div>
+            
             <div className="flex items-center space-x-2 mb-6">
               <Cpu className="h-6 w-6 text-yellow-400" />
               <span className="text-yellow-400 font-semibold">AI-Powered Solutions</span>
